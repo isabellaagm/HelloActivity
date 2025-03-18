@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
-class DebugActivity : AppCompatActivity() {
+open class DebugActivity : AppCompatActivity() {
 
     companion object {
         const val TAG: String = "DebugActivity"

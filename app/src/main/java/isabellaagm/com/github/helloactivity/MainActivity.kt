@@ -12,9 +12,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import isabellaagm.com.github.helloactivity.ui.theme.HelloActivityTheme
 
-class MainActivity : ComponentActivity() {
+class MainActivity : DebugActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        setContentView(R.layout.activity_main)
     }
 }
